@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="confirm_pw.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <aside>
+        <div class="odin-banner"><img src="images/odin-lined.png" class="odin-head"> ODIN</div>
+    </aside>
+    <section>
+        <div class="form-container">
+            <header>
+                <div class="header-text">This is not a real service but rather a dummy page for exercising web development. You may view but you may not register. Hope you like it!</div>
+            </header>
+            <form action="/accept_register" method="post">
+                <fieldset>
+                    <legend>Enter your info here</legend>
+                    <div class="label-field-container">
+                        <label for="first_name">First name</label>
+                        <input type="text" name="first_name" id="first_name"></div> 
+                    <div class="label-field-container">
+                        <label for="last_name">Last name</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                    <div class="label-field-container">
+                        <label for="email">E-Mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="label-field-container">
+                        <label for="pw">Password</label>
+                        <input type="password" name="pw" id="pw" required>
+                    </div>
+                    <div class="label-field-container">
+                        <label for="confirm_pw">Confirm password</label>
+                        <input type="password" name="confirm_pw" id="confirm_pw">
+                    </div>
+                    <button type="submit">Submit info</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    
+</body>
+</html>
